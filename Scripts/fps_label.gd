@@ -14,15 +14,6 @@ const TEXT_FORMAT := "FPS: %s";
 @export var _on_physics: bool = false;
 
 
-func _ready() -> void:
-	
-	if ( Engine.is_editor_hint() ):
-		
-		text = TEXT_FORMAT;
-		set_process( false );
-		set_physics_process( false );
-		return;
-
 func _validate_property( property: Dictionary ) -> void:
 	if ( property[ "name" ] == "text" ):
 		property[ "usage" ] = PROPERTY_USAGE_NONE;
