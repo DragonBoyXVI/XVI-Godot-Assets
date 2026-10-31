@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ovob8ar4dplr"
+path="res://.godot/imported/i.wav-88dba80f5790f363bac6156a854b5693.sample"
+
+[deps]
+
+source_file="res://XVI Assets/Audio/Vowels/i.wav"
+dest_files=["res://.godot/imported/i.wav-88dba80f5790f363bac6156a854b5693.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
